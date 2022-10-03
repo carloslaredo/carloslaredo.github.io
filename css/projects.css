@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.github{
+    color: #232526;
+    font-size: 30vh;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.title{
+    display: flex;
+    position: relative;
+    bottom: 230px;
+    left: 400px;
+    color: #232526;
+    font-size: 20vh;
+    text-decoration: none;
+}
+
+.repairmanager{
+    display: flex;
+    position: absolute;
+    color: #232526;
+    bottom: -300px;
+    font-size: 8vh;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.repairappinfo{
+    
+}
