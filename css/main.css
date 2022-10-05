@@ -173,7 +173,7 @@ body{
         -webkit-background-clip: text;
          -moz-background-clip: text;
          -webkit-text-fill-color: transparent;
-         padding-top: 40%;
+         padding-top: 150%;
        font-size: 7vh;
     }
 
@@ -193,12 +193,6 @@ body{
         border-radius: 25%;
     }
 
-    .basic-info{
-        background-image: url(../images/silla-movil.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
     .list1{
         color: rgb(0, 0, 0);
         font-size: 4.5vh;
@@ -207,7 +201,7 @@ body{
         background: #E0EAFC;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        opacity: 0.8;
+        opacity: 0.65;
         padding-left: 5%;
     }
 
@@ -216,9 +210,9 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 100px;
         font-size: 12vh;
-        margin: 1 auto;
+        margin-left: 10%;
     }
 
     .skills{
@@ -227,6 +221,34 @@ body{
 
     .skillstree{
         width: 100%;
+    }
+    
+    .bottomcover1{
+        display: flex;
+        position: relative;
+        bottom: 70px;
+        left: 10px;
+        height: 50px;
+        width: 100px;
+        background-color: #ffffff;
+    }
+    
+    .bottomcover2{
+        display: flex;
+        position: relative;
+        bottom: 100px;
+        left: 220px;
+        height: 50px;
+        width: 150px;
+        background-color:  #ffffff ;
+    }
+
+    .pp{
+        display: block;
+        margin-left: 12%;
+        margin-right: 30%;
+        position: relative;
+        top: 50px;
     }
     
 
