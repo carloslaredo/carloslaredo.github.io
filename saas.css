@@ -1,0 +1,21 @@
+.project-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-logo {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .project-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .project-container img {
+      margin-bottom: 1rem;
+    }
+  }
+ 
+  
